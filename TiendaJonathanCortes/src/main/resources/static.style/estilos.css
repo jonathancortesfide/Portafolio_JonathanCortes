@@ -23,7 +23,7 @@ body {
     left: 0;
     width: 100%;
     height: 90px;
-    background-color: #076af0;
+    background-color: #49111C;
 }
 
 .logo {
@@ -59,7 +59,7 @@ body {
 }
 
 .nav-menu-link:hover {
-    background-color: #024070;
+    background-color: #7c5d41;
     transition: 0.5s;
 }
 
@@ -74,18 +74,20 @@ body {
     top: 20%;
     left: 0;
     width: 20%;
-    height: 75%;
-    background-color: aqua;
+    height: 72%;
+    background-color: #A9927D;
+    border-radius: 8px;
 }
 
 .section {
     position: fixed;
     top: 20%;
-    left: 20%;
-    width: 80%;
-    height: 75%;
+    left: 21%;
+    width: 78%;
+    height: 72%;
     background-color: bisque;
     overflow-y: scroll;
+    border-radius: 8px;
 }
 
 .footer {
@@ -94,6 +96,6 @@ body {
     left: 0;
     width: 100%;
     height: 5%;
-    background-color: yellowgreen;
+    background-color: #7c5d41;
     text-align: center;
 }
