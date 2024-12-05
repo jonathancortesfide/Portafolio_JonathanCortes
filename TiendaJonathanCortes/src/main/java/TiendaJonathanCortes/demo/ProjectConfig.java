@@ -21,9 +21,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.i18n.LocaleChangeInterceptor;
 import org.springframework.web.servlet.i18n.SessionLocaleResolver;
-<<<<<<< HEAD
 
-=======
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -35,7 +33,6 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
  *
  * @author Jonathan
  */
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
 @Configuration
 public class ProjectConfig implements WebMvcConfigurer {
 
@@ -115,7 +112,6 @@ public class ProjectConfig implements WebMvcConfigurer {
 
     /* El siguiente método se utiliza para completar la clase no es 
     realmente funcional, la próxima semana se reemplaza con usuarios de BD */
-<<<<<<< HEAD
 //    @Bean
 //    public UserDetailsService users() {
 //        UserDetails admin = User.builder()
@@ -135,7 +131,6 @@ public class ProjectConfig implements WebMvcConfigurer {
 //                .build();
 //        return new InMemoryUserDetailsManager(user, sales, admin);
 //    }
-=======
     @Bean
     public UserDetailsService users() {
         UserDetails admin = User.builder()
@@ -155,5 +150,4 @@ public class ProjectConfig implements WebMvcConfigurer {
                 .build();
         return new InMemoryUserDetailsManager(user, sales, admin);
     }
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
 }

@@ -11,10 +11,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "usuario")
-/**
- *
- * @author Jonathan
- */
+
 public class Usuario implements Serializable {
     private static final long serialVersionUID = 1L;
 

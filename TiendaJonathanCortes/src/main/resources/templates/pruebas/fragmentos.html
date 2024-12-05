@@ -23,7 +23,6 @@
             </div>
         </section>
 
-<<<<<<< HEAD
 
         <!-- 2 Sección principal para mostrar la informaccion de la entidad producto -->
         <section th:fragment="listadoProductos" id="productos">
@@ -77,23 +76,6 @@
                                 <h4 class="fs-2"><i class="fas fa-users"></i> [[${totalProductos}]]</h4>
                             </div>
                         </div>
-=======
-         <!-- 2 Sección principal para mostrar la informaccion de la entidad producto -->
-        <section th:fragment="listadoProductos" id="productos">
-            <div class="row row-cols-4">
-                <div class="card" th:each="p : ${productos}">
-                    <figure><img th:src="${p.rutaImagen}" 
-                                 class="card-img-top" alt="..."
-                                 height="200"/>
-                        <figcaption>[[${p.precio}+' ('+${p.existencias}+')']]
-                        </figcaption>
-                    </figure>
-                    <div class="card-header">
-                        <h4 class="card-title">[[${p.descripcion}]]</h4>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text">[[${p.detalle}]]</p>                    
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
                     </div>
                 </div>
             </div>
@@ -128,12 +110,8 @@
                             </div>
                         </div>
                     </form>
-<<<<<<< HEAD
                 </div>   
 
-=======
-                </div>
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
                 <div class="col-md-3">
                     <form method="POST" th:action="@{/pruebas/query2}" 
                           class="was-validated">
@@ -153,29 +131,18 @@
                                 </div>
                             </div>
                             <div class="card-footer text-center">
-<<<<<<< HEAD
                                 <button type="submit" class="btn btn-success">
-=======
-                                <button type="submit" class="btn btn-info">
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
                                     <i class="fas fa-check"></i> [[#{pruebas.jpql}]]
                                 </button>
                             </div>
                         </div>
                     </form>
                 </div>
-<<<<<<< HEAD
                 
                 <div class="col-md-3">
                     <form method="POST" th:action="@{/pruebas/query3}" 
                           class="was-validated">
                         <div class="card">                            
-=======
-                <div class="col-md-3">
-                    <form method="POST" th:action="@{/pruebas/query3}" 
-                          class="was-validated">
-                        <div class="card success">
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
                             <div class="card-body">
                                 <div class="mb-3">
                                     <label for="precioInf">[[#{pruebas.precio.inferior}]]</label>
@@ -191,21 +158,14 @@
                                 </div>
                             </div>
                             <div class="card-footer text-center">
-<<<<<<< HEAD
                                 <button type="submit" class="btn btn-danger">
-=======
-                                <button type="submit" class="btn btn-warning">
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
                                     <i class="fas fa-check"></i> [[#{pruebas.nativo}]]
                                 </button>
                             </div>
                         </div>
                     </form>
                 </div>
-<<<<<<< HEAD
                 
-=======
->>>>>>> 5536af2da691d8695d6c9c4ba9236bc2c0ed38b7
             </div>
         </section> 
 
